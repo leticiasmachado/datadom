@@ -1,0 +1,30 @@
+{
+  "datasetConfig": {
+    "size": 1000,
+    "allowlistSources": [
+      "MajesticMillion"
+    ],
+    "blocklistSources": [
+      "Hagezi"
+    ],
+    "features": {
+      "domain": true,
+      "whois": false,
+      "subdomains": false,
+      "ipAddresses": true,
+      "tools": false,
+      "network": true,
+      "lexical": true,
+      "DomainInMajesticMillion": false,
+      "DomainInCiscoUmbrella": true,
+      "DomainInOpenPhish": false,
+      "DomainInHagezi": false,
+      "DomainInUrlAbuse": false,
+      "DomainInBambenekDomains": false,
+      "DomainInPhishTank": false,
+      "DomainInAbuseCh": false,
+      "IpInBlocklistDe": false,
+      "IpInBambenek": false
+    }
+  }
+}
