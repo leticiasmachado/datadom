@@ -48,7 +48,7 @@ Python solution that:
    - Safe interruption via `ENTER` key  
    - State saved in `input.csv` allows resuming from exact stopping point  
 
-![Tool Flowchart](link_to_flowchart_on_github)
+![Tool Flowchart](Tool_Flowchart.png)
 
 ### Data Sources
 | Type           | Included Sources                                                                 |
