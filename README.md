@@ -59,7 +59,7 @@ Python solution that:
 
 ## 🛠 Configuration
 
-Edit `configs.json` to select:
+Edit `json_processor/configs.json` to select:
 - Desired data sources
 - Final domain count (half malicious, half legitimate)
 - Number of threads for parallel processing
@@ -100,7 +100,7 @@ datadom/
    ```bash
    git clone https://github.com/leticiasmachado/datadom
    ```
-2. Configure `configs.json`
+2. Configure `json_processor/configs.json`
 3. Run the main module:
    ```bash
    python main.py
