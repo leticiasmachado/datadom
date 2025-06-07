@@ -1,0 +1,34 @@
+{
+  "datasetConfig": {
+    "numThreads": 5,
+    "size": 50,
+    "allowlistSources": [
+      "MajesticMillion"
+    ],
+    "blocklistSources": [
+      "BambenekDomains"
+    ],
+    "features": {
+      "domain": false,
+      "whois": false,
+      "subdomains": false,
+      "ipAddresses": false,
+      "tools": true,
+      "network": true,
+      "lexical": true,
+      "DomainInMajesticMillion": false,
+      "DomainInCiscoUmbrella": true,
+      "DomainInOpenPhish": false,
+      "DomainInHagezi": false,
+      "DomainInUrlAbuse": false,
+      "DomainInBambenekDomains": false,
+      "DomainInPhishTank": false,
+      "DomainInAbuseCh": false,
+      "IpInBlocklistDe": false,
+      "IpInBambenek": false
+    },
+    "VirusTotalAPIKEY": "API_KEY",
+    "usernameBambenek": "USERNAME_BAMBENEK",
+    "passwordBambenek": "PASSWORD_BAMBENEK"
+  }
+}

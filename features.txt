@@ -1,0 +1,64 @@
++-------------------------------------------------------+
+|                   DATASET FEATURES                    |
++-------------------------------------------------------+
+|        TYPE           |           FEATURES            |
+|_______________________|_______________________________|
+|                       |           Domain              |
+|                       |           TLD                 |
+|                       |       DNSRecordType           |
+|                       |       MXDnsResponse           |
+|       Domain          |       TXTDnsResponse          |
+|                       |       HasSPFInfo              |
+|                       |       HasDkimInfo             |
+|                       |       HasDmarcInfo            |
+|                       |       CountryCode             |
++-------------------------------------------------------+
+|                       |       RegisteredCountry       |
+|                       |       RegistredOrg            |
+|                       |       LastUpdateDate          |
+|       Whois           |       CreationDate            |
+|                       |       ExpirationDate          |
+|                       |       NameServers             |
++-------------------------------------------------------+
+|       Subdomains      |       SubdomainCount          |
+|                       |       EntropyOfSubDomains     |
++-------------------------------------------------------+
+|                       |       DNSServersIps           |
+|       Ip Adresses     |           HostIPs             |
+|                       |       DNSServersCountries     |
+|                       |       HostIPsCountries        |
++-------------------------------------------------------+
+|       Allowlists      |   DomainInMajesticMillion     |
+|                       |   DomainInCiscoUmbrella       |
++-------------------------------------------------------+
+|                       |       DomainInOpenPhish       |
+|                       |       DomainInHagezi          |
+|   Domain Blocklists   |       DomainInUrlAbuse        |
+|                       |       DomainInBambenek        |
+|                       |       DomainInPhishTank       |
+|                       |       DomainInAbuseCh         |
++-------------------------------------------------------+
+|   IP Blocklists       |       IpInBlocklistDe         |
+|                       |       IpInBambenek            |
++-------------------------------------------------------+
+|           Tools       |   IpReputationDnsblInfo       |
+|                       |   DomainReputationVirusTotal  |
++-------------------------------------------------------+
+|                       |           CommonPorts         |
+|       Network         |       HttpResponseCode        |
+|                       |               ASN             |
++-------------------------------------------------------+
+|                       |       StrangeCharacters       |
+|                       |       ConsonantRatio          |
+|                       |           VowelRatio          |
+|                       |           NumericRatio        |
+|                       |       SpecialCharRatio        |
+|       Lexical         |       ConsonantSequence       |
+|                       |           VowelSequence       |
+|                       |       NumericSequence         |
+|                       |       SpecialCharSequence     |
+|                       |           Entropy             |
+|                       |           DomainLength        |
++-------------------------------------------------------+
+|       Class           |           Class               |
++-------------------------------------------------------+

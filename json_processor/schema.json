@@ -1,0 +1,140 @@
+{
+  "title": "Dataset Config",
+  "type": "object",
+  "properties": {
+    "datasetConfig": {
+      "type": "object",
+      "properties": {
+        "numThreads":{
+          "description": "Number of threads to use in the processing.",
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100,
+          "default": 25
+        },
+        "size": {
+          "description": "Number of domains to include in the dataset.",
+          "type": "integer",
+          "minimum": 10,
+          "maximum": 90000,
+          "default": 1000
+        },
+        "allowlistSources": {
+          "description": "Sources for allowlists.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["MajesticMillion","CiscoUmbrella"]
+          },
+          "minItems": 1,
+          "maxItems": 1,
+          "default": ["MajesticMillion"]
+        },
+        "blocklistSources": {
+          "description": "Sources for blocklists.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["BambenekDomains","Hagezi","PhishTank"]
+          },
+          "minItems": 1,
+          "default": ["BambenekDomains"]
+        },
+        "features": {
+          "description": "Features to be included in the dataset.",
+          "type": "object",
+          "properties": {
+            "domain": {
+              "type": "boolean",
+              "default": true
+            },
+            "whois": {
+              "type": "boolean",
+              "default": true
+            },
+            "subdomains": {
+              "type": "boolean",
+              "default": false
+            },
+            "ipAddresses": {
+              "type": "boolean",
+              "default": true
+            },
+            "tools": {
+              "type": "boolean",
+              "default": false
+            },
+            "network": {
+              "type": "boolean",
+              "default": false
+            },
+            "lexical": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInMajesticMillion": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInCiscoUmbrella": {
+              "type": "boolean",
+              "default": true
+            },
+            "DomainInOpenPhish": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInHagezi": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInUrlAbuse": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInBambenekDomains": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInPhishTank": {
+              "type": "boolean",
+              "default": false
+            },
+            "DomainInAbuseCh": {
+              "type": "boolean",
+              "default": false
+            },
+            "IpInBlocklistDe": {
+              "type": "boolean",
+              "default": false
+            },
+            "IpInBambenek": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          "additionalProperties": false
+        },
+        "VirusTotalAPIKEY": {
+          "description": "Your VirusTotal API KEY.",
+          "type": "string",
+          "minItems": 1,
+          "default": ""
+        },
+        "usernameBambenek": {
+          "description": "Your user from Bambenek list.",
+          "type": "string",
+          "minItems": 1,
+          "default": ""
+        },
+        "passwordBambenek": {
+          "description": "Your password from Bambenek list.",
+          "type": "string",
+          "minItems": 1,
+          "default": ""
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
