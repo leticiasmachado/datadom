@@ -98,7 +98,7 @@ datadom/
 ## 🚀 How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/leticiasmachado/datadom.git
+   git clone https://github.com/leticiasmachado/datadom
    ```
 2. Configure `configs.json`
 3. Run the main module:
