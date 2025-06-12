@@ -1,6 +1,6 @@
 # Dataset Automation Tool for Analysis of Domains - DATADOM
 
-Tool developed for a Computer Science final project that generates datasets for training machine learning models to detect malicious domains.
+Tool developed for a BCs in Computer Science undergraduate final project that generates datasets for training machine learning models to detect malicious domains.
 
 ## 🔍 Overview
 
