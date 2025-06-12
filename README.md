@@ -95,7 +95,7 @@ datadom/
 └── main.py                  # Entry point
 ```
 
-## 🚀 How to Use
+## 🚀 How to Run
 1. Clone the repository:
    ```bash
    git clone https://github.com/leticiasmachado/datadom
