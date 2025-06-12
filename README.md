@@ -84,7 +84,7 @@ Edit `json_processor/configs.json` to select:
 
 ```
 datadom/
-├── data/                    # Source data
+├── data/                    # Data source
 ├── domain_checkers/         # List verifiers
 ├── downloads/               # Download management
 ├── features_processor/      # Feature processing
